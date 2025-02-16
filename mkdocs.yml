@@ -2,6 +2,23 @@ site_name: Professor Sathish Academy
 
 theme:
   name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
 
   features:
     - navigation.instant
@@ -15,6 +32,9 @@ theme:
     - content.code.annotate
 nav:
   - Home: index.md
+  - C Programming: 
+    - Introduction: C_Prog/01.md
+
 extra:
   generator: false
   consent:
@@ -77,14 +97,12 @@ markdown_extensions:
       mode: view
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
   - pymdownx.emoji:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-
 
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
