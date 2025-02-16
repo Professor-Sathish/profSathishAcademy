@@ -34,6 +34,7 @@ nav:
   - Home: index.md
   - C Programming: 
     - Introduction: C_Prog/01.md
+    - History: C_Prog/02.md
 
 extra:
   generator: false
