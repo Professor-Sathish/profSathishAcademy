@@ -33,8 +33,27 @@ theme:
 nav:
   - Home: index.md
   - C Programming: 
-    - Introduction: C_Prog/01.md
-    - History: C_Prog/02.md
+    - What is C: C_Prog/01.md
+    - Which C are we learning: C_Prog/02.md
+    - Getting Started with C: C_Prog/03.md
+    - Alphabets,Digits and Special Symbols : C_Prog/04.md
+    - Constants,Variables and Keywords : C_Prog/05.md
+    - Types of Constants : C_Prog/06.md
+    - Rules for Constructing Integer Constants: C_Prog/07.md
+    - Rules for Constructing Real Constants: C_Prog/08.md
+    - Types of C Variables: C_Prog/09.md
+    - Rules for Constructing Variable Names: C_Prog/10.md
+    - C Keywords: C_Prog/11.md
+    - The First C Program: C_Prog/12.md
+    - Form of a C Program: C_Prog/13.md
+    - Comments in a C Program: C_Prog/14.md
+    - What is main() ?: C_Prog/15.md
+    - Variables and their usage: C_Prog/16.md
+    - printf() and its purpose: C_Prog/17.md
+    - Compilation and Execution: C_Prog/18.md
+    - Receiving Input: C_Prog/19.md
+    - Programs for practice : C_Prog/20.md
+    
 
 extra:
   generator: false
